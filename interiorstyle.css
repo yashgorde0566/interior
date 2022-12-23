@@ -1,0 +1,782 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f3f3;
+    
+}
+
+.main {
+    width: 100%;
+    margin: 0px auto 20px;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.p10_0 {
+    padding: 10px 0px;
+}
+
+.p20_0 {
+    padding: 20px 0px;
+}
+
+.p30_0 {
+    padding: 30px 0px;
+}
+
+.p40_0 {
+    padding: 40px 0px;
+}
+
+.p50_0 {
+    padding: 50px 0px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*********** Start Menu **********/
+.navbar {
+    width: 100%;
+    float: left;
+    background: #000;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    float: left;
+    padding: 0px;
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navbar ul li:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.navbar ul li a:hover {
+    color: #b2ff00;
+}
+
+/*********** End Menu **********/
+
+/*********** Start Header **********/
+.header {
+    width: 100%;
+    float: left;
+    background: #FFF;
+    padding: 10px 50px;
+}
+
+.header-left {
+    width: 500px;
+    float: left;
+    padding: 0px;
+}
+
+.header-center {
+    width: 400px;
+    float: left;
+    padding: 0px 0px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-right {
+    width: 180px;
+    float: left;
+    padding: 30px 0px 0px 120px;
+}
+
+.black-btn {
+    padding: 8px 30px;
+    background: #000;
+    color: #FFF;
+    border-radius: 2px;
+    border: #000 1px solid;
+    cursor: pointer;
+}
+
+.black-btn:hover {
+    background: #333;
+    text-decoration: none;
+}
+
+.green {
+    color: #72ac00;
+    text-decoration: none;
+}
+
+.green a {
+    color: #72ac00;
+    text-decoration: none;
+}
+
+.green a:hover {
+    color: #4E9B00;
+}
+
+/*********** End Header **********/
+
+/*********** Start Slider **********/
+.yash {
+    width: 100%;
+    background: url(dark-decor-living-room\ \(1\).jpg);
+    height: 700px;
+    float: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+
+.yash-h3 {
+    font-size: 30px;
+    padding: 200px 0px 10px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 0.5px #000;
+
+}
+
+.btn {
+    background: #72ac00;
+    color: #FFF;
+    padding: 9px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-shadow: none;
+}
+
+.btn:hover {
+    background: #4E9B00;
+}
+
+/*********** End Slider **********/
+
+/*********** Start Content **********/
+.content {
+    width: 100%;
+    padding: 0px 50px;
+    float: left;
+    background: #FFF;
+}
+
+.content-h1 {
+    font-size: 60px;
+    text-align: center !important;
+    padding: 30px 0px 5px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.content-h4 {
+    font-size: 22px;
+    text-align: center !important;
+    padding: 0px 0px 35px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.content-parts {
+    width: 300px;
+    float: left;
+    padding: 10px 0px;
+}
+
+.content-parts-h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #72ac00;
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 500;
+}
+
+.content-parts-p {
+    color: #000;
+    line-height: 26px;
+    padding: 5px 20px;
+    text-align: justify;
+}
+
+/*********** End Content **********/
+
+
+/*********** Start Content Bottom **********/
+.content-bottom {
+    width: 100%;
+    padding: 50px;
+    float: left;
+}
+
+.content-bottom-parts {
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+
+.content-bottom-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+.content-bottom-parts-p {
+    color: #000;
+    line-height: 26px;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.content-bottom-btn {
+    background: #72ac00;
+    color: #FFF;
+    padding: 10px 100px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.content-bottom-btn:hover {
+    background: #4E9B00;
+}
+
+/*********** End Content Bottom **********/
+
+/******  Start Testimonials  ******/
+.testimonials {
+    width: 1024px;
+    background: #eeeeee;
+    padding: 0px 0px 40px;
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 130px;
+}
+
+.testimonials-parts {
+    width: 460px;
+    margin: 15px 20px 5px;
+    float: left;
+    padding: 15px 6px;
+    color: #000;
+}
+
+.testimonials-parts-left {
+    width: 160px;
+    float: left;
+}
+
+.testimonials-parts-right {
+    width: 280px;
+    float: left;
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px 20px 0px 0px;
+}
+
+.header-font {
+    float: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.testimonials-2 {
+    width: 1024px;
+    padding: 0px 0px 40px;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+.testimonials-2-parts {
+    width: 460px;
+    margin: 15px 20px 5px;
+    float: left;
+    padding: 15px 6px;
+    color: #000;
+}
+
+.testimonials-2-parts-left {
+    width: 160px;
+    float: left;
+}
+
+.testimonials-2-parts-right {
+    width: 280px;
+    float: left;
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px 20px 0px 0px;
+}
+
+.header-font {
+    float: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+/******  End Testimonials  ******/
+
+
+
+/*********** Start Footer **********/
+.footer {
+    width: 100%;
+    color:#000;
+    float: left;
+    background: #4E9B00;
+    padding: 20px 0px 10px;
+    margin-top: 20px;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0px 15px;
+}
+
+.footer-left {
+    width: 414px;
+    float: left;
+    padding: 10px 30px;
+}
+
+.footer-right {
+    width: 221px;
+    float: left;
+    padding: 10px 2px;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer-right ul li {
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-right ul li a:hover {
+    color: #b2ff00;
+}
+
+.footer-bottom {
+    width: 974px;
+    color: #000;
+    font-size: 12px;
+    padding: 8px 25px 2px;
+}
+
+.footer-bottom-left {
+    width: 774px;
+    float: left;
+}
+
+.footer-bottom-right {
+    width: 200px;
+    float: left;
+    text-align: right;
+}
+
+.footer-link {
+    color: #000;
+    text-decoration: none;
+}
+
+/*********** End Footer **********/
+
+/*********** Start yash2 **********/
+.yash2 {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)),url(dlf-magnolias-gurugram-penthouse-featured-image-1366x768.webp);
+    height: 550px;
+    float: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+
+.yash2-h3 {
+    font-size: 30px;
+    padding: 200px 0px 10px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 0.5px #000;
+
+}
+
+.btn {
+    background: #72ac00;
+    color: #FFF;
+    padding: 9px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-shadow: none;
+}
+
+.btn:hover {
+    background: #4E9B00;
+}
+/*********** End yash2 **********/
+
+/*********** Start Content1 **********/
+.content1 {
+    width: 100%;
+    padding: 0px 50px;
+    float:left;
+    background: #FFF;
+}
+
+.content1-h1 {
+    font-size: 60px;
+    text-align: center !important;
+    padding: 30px 0px 5px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.content1-h4 {
+    font-size: 22px;
+    text-align: center !important;
+    padding: 0px 0px 35px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.content1-parts {
+    width: 300px;
+    float: left;
+    padding: 30px 30px;
+}
+
+.content1-parts-h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #72ac00;
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 500;
+}
+
+.content1-parts-p {
+    color: #000;
+    line-height: 26px;
+    padding: 5px 20px;
+    text-align: justify;
+}
+/*********** End Content1 **********/
+
+/*********** Start Content2 **********/
+
+.content2{
+    width: 100%;
+    padding: 50px;
+    float: left;
+}
+
+.content2-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+.content2-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content2 **********/
+
+/*********** Start Content3 **********/
+
+.content3{
+    width: 100%;
+    float: left;
+    margin-right: 200px;
+    
+}
+
+.content3-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+    
+
+}
+.content3-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content3 **********/
+
+/*********** Start Content4 **********/
+
+.content4{
+    width: 100%;
+    margin-right: 200px;
+    float: left;
+}
+
+.content4-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+.content4-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content4 **********/
+
+/*********** Start Content5 **********/
+
+.content5{
+    width: 100%;
+    margin-right: 200px;
+    float: left;
+}
+
+.content5-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+.content5-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content5 **********/
+
+/*********** Start Content6 **********/
+
+.content6{
+    width: 100%;
+    margin-right: 200px;
+    float: left;
+}
+
+.content6-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+.content6-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content6 **********/
+
+/*********** Start Content7 **********/
+
+.content7{
+    width: 100%;
+    margin-right: 200px;
+    float: left;
+}
+
+.content7-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+.content7-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content7 **********/
+
+/*********** Start Content8 **********/
+
+.content8{
+    width: 100%;
+    margin-right: 200px;
+    float: left;
+}
+
+.content8-parts{
+    width: 300px;
+    padding: 20px 50px 60px;
+    float: left;
+}
+.content8-parts-h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #72ac00;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+/*********** End Content8 **********/
+.container11{
+    box-sizing: border-box;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container9 {
+    padding: 0 16px;
+  }
+  
+  .container9::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .container15 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+.content99{
+    text-align: center;
+    background-color: #04AA6D;
+}
+
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+     /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  /* Add a background color and some padding around the form */
+  .map{
+    margin-left: 370px;
+  }
+
+
+
+
